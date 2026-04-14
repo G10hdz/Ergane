@@ -1,0 +1,264 @@
+# Ergane — Target Companies
+# 30+ high-priority tech companies for DevOps/MLOps/Cloud/AI roles.
+# Includes Mexican/LATAM startups, cloud providers, open source, and AI companies.
+
+companies:
+  # ── Mexican/LATAM Fintech & Startups ──
+  - name: "Clip"
+    careers_url: "https://www.clip.mx/positions"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Konfío"
+    careers_url: "https://jobs.workable.com/view/BqJQk8MvYqNzRjXpWdGhTa9/konfio-jobs"
+    ats_platform: "workable"
+    priority: high
+
+  - name: "Kueski"
+    careers_url: "https://www.kueski.com/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "Bitso"
+    careers_url: "https://bitso.com/jobs"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Conekta"
+    careers_url: "https://www.conekta.com/careers"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Clara"
+    careers_url: "https://www.clara.com.mx/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "Palenca"
+    careers_url: "https://palenca.com/careers"
+    ats_platform: "greenhouse"
+    priority: medium
+
+  - name: "Truora"
+    careers_url: "https://www.truora.com/careers"
+    ats_platform: "workable"
+    priority: medium
+
+  - name: "Rappi"
+    careers_url: "https://www.rappi.com.mx/trabaja-con-nosotros"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Nubank"
+    careers_url: "https://international.nubank.com.br/job-opportunity"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "Mercado Libre"
+    careers_url: "https://careers-meli.mercadolibre.com/en"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "Kavak"
+    careers_url: "https://careers.kavak.com/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Fondeadora"
+    careers_url: "https://fondeadora.com/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "Stori"
+    careers_url: "https://www.storicard.com/equipo"
+    ats_platform: "lever"
+    priority: high
+
+  - name: "Creditas"
+    careers_url: "https://careers.creditas.com/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Nowports"
+    careers_url: "https://nowports.com/careers"
+    ats_platform: "lever"
+    priority: high
+
+  - name: "Jüsto"
+    careers_url: "https://careers.justo.mx/"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Belvo"
+    careers_url: "https://belvo.com/careers/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Yalo"
+    careers_url: "https://www.yalo.com/careers"
+    ats_platform: "lever"
+    priority: high
+
+  - name: "Incode"
+    careers_url: "https://incode.com/careers/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Albo"
+    careers_url: "https://albo.mx/careers"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "99minutos"
+    careers_url: "https://www.99minutos.com/careers"
+    ats_platform: "unknown"
+    priority: medium
+
+  # ── AI / ML Companies ──
+  - name: "Hugging Face"
+    careers_url: "https://huggingface.co/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "LangChain"
+    careers_url: "https://www.langchain.com/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "Cohere"
+    careers_url: "https://cohere.com/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Mistral AI"
+    careers_url: "https://jobs.lever.co/mistral"
+    ats_platform: "lever"
+    priority: high
+
+  - name: "Databricks"
+    careers_url: "https://www.databricks.com/company/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Snowflake"
+    careers_url: "https://careers.snowflake.com"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Weights & Biases"
+    careers_url: "https://wandb.ai/site/careers/"
+    ats_platform: "lever"
+    priority: high
+
+  - name: "Perplexity AI"
+    careers_url: "https://www.perplexity.ai/hub/careers"
+    ats_platform: "ashby"
+    priority: high
+
+  - name: "Scale AI"
+    careers_url: "https://scale.com/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Stability AI"
+    careers_url: "https://stability.ai/careers"
+    ats_platform: "unknown"
+    priority: medium
+
+  # ── Cloud / Infrastructure ──
+  - name: "Alibaba Cloud"
+    careers_url: "https://www.alibabacloud.com/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "DigitalOcean"
+    careers_url: "https://www.digitalocean.com/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Cloudflare"
+    careers_url: "https://www.cloudflare.com/careers/jobs/"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "OVHcloud"
+    careers_url: "https://careers.ovhcloud.com/en/"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "Akamai"
+    careers_url: "https://jobs.akamai.com"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "NVIDIA"
+    careers_url: "https://www.nvidia.com/en-us/about-nvidia/careers/"
+    ats_platform: "unknown"
+    priority: high
+
+  # ── Open Source / Developer Tools ──
+  - name: "Red Hat"
+    careers_url: "https://www.redhat.com/en/jobs"
+    ats_platform: "workday"
+    priority: high
+
+  - name: "Canonical"
+    careers_url: "https://canonical.com/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "GitLab"
+    careers_url: "https://about.gitlab.com/jobs/all-jobs/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "Grafana Labs"
+    careers_url: "https://grafana.com/careers/"
+    ats_platform: "greenhouse"
+    priority: high
+
+  - name: "HashiCorp"
+    careers_url: "https://www.ibm.com/careers/hashicorp"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Docker"
+    careers_url: "https://www.docker.com/career-openings/"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "SUSE"
+    careers_url: "https://www.suse.com/careers/"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "Elastic"
+    careers_url: "https://www.elastic.co/careers"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Datadog"
+    careers_url: "https://careers.datadoghq.com/engineering/"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "Confluent"
+    careers_url: "https://careers.confluent.io/"
+    ats_platform: "unknown"
+    priority: high
+
+  - name: "CrowdStrike"
+    careers_url: "https://www.crowdstrike.com/en-us/careers/"
+    ats_platform: "unknown"
+    priority: medium
+
+  - name: "Automattic"
+    careers_url: "https://automattic.com/work-with-us/"
+    ats_platform: "unknown"
+    priority: medium
+
+  # ── AI/ML Infrastructure ──
+  - name: "Sysdig"
+    careers_url: "https://sysdig.com/careers/"
+    ats_platform: "unknown"
+    priority: medium

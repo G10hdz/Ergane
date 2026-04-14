@@ -1,0 +1,141 @@
+# Profile Template
+# Copy this file and customize for a new user
+# Example: cp template.yaml sister.yaml
+
+name: Your Name
+enabled: false  # Set to true when ready
+
+# Telegram notifications
+telegram:
+  # Get your chat_id by messaging @userinfobot on Telegram
+  chat_id: "YOUR_CHAT_ID_HERE"
+
+# Job preferences
+preferences:
+  min_salary_mxn: 25000          # Monthly brutos (0 to disable)
+  remote_preferred: true
+  locations:
+    - Mexico
+    - CDMX
+    - Remote
+  
+  # Exclude certain employers (optional)
+  exclude_companies: []
+
+# Skills with weights (0.0-1.0)
+# Higher weight = more important for matching
+# Common skills for different roles:
+
+# === Frontend Developer ===
+# skills:
+#   javascript: 0.20
+#   react: 0.20
+#   typescript: 0.15
+#   css: 0.10
+#   html: 0.10
+#   next.js: 0.10
+#   tailwind: 0.08
+#   vue: 0.08
+#   angular: 0.05
+#   figma: 0.05
+
+# === Backend Developer ===
+# skills:
+#   python: 0.15
+#   java: 0.15
+#   node.js: 0.15
+#   sql: 0.10
+#   postgresql: 0.10
+#   mongodb: 0.08
+#   rest api: 0.08
+#   docker: 0.08
+#   microservices: 0.05
+
+# === Data Analyst ===
+# skills:
+#   excel: 0.15
+#   sql: 0.20
+#   python: 0.15
+#   tableau: 0.15
+#   power bi: 0.15
+#   data visualization: 0.10
+#   statistics: 0.08
+#   pandas: 0.08
+
+# === DevOps/SRE ===
+# skills:
+#   linux: 0.15
+#   docker: 0.15
+#   kubernetes: 0.15
+#   terraform: 0.15
+#   aws: 0.15
+#   ci/cd: 0.10
+#   ansible: 0.08
+#   monitoring: 0.05
+
+# === UX/UI Designer ===
+# skills:
+#   figma: 0.20
+#   user research: 0.15
+#   wireframing: 0.12
+#   prototyping: 0.12
+#   design systems: 0.10
+#   adobe xd: 0.08
+#   sketch: 0.08
+#   usability testing: 0.08
+#   accessibility: 0.05
+
+# === Project Manager ===
+# skills:
+#   scrum: 0.15
+#   agile: 0.15
+#   jira: 0.12
+#   project management: 0.15
+#   stakeholder management: 0.10
+#   pmp: 0.08
+#   kanban: 0.08
+#   communication: 0.05
+
+# Customize your skills below:
+skills:
+  skill1: 0.20
+  skill2: 0.15
+  skill3: 0.10
+
+# Core skills (must have at least 2 for a good match)
+core_skills:
+  - skill1
+  - skill2
+
+# Minimum score to pass matching (0.0-1.0)
+# Lower = more jobs, Higher = stricter matching
+min_score: 0.15
+
+# ---------------------------------------------------------------------------
+# Rules-based scoring (filters/rules.py) — all sections optional.
+# Omit any field to fall back to built-in defaults.
+# ---------------------------------------------------------------------------
+rules:
+  # Coarser keywords worth points in the rules engine
+  positive_stack:
+    # skill: weight
+    # python: 0.15
+
+  # Title keywords that indicate a relevant role
+  relevant_titles:
+    # - devops
+    # - backend
+
+  # Max years of experience a job can ask for (0 = disabled, for mid/senior).
+  max_years_experience: 0
+
+  # Minimum salary (MXN brutos/mes). Falls back to preferences.min_salary_mxn.
+  # min_salary_mxn: 30000
+
+  # Substring exclusions
+  hard_exclusions: []
+
+# Company classification — override built-in defaults if needed
+companies:
+  blacklist: []
+  whitelist: []

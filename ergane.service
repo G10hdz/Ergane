@@ -1,0 +1,17 @@
+[Unit]
+Description=Ergane Job Search Bot
+After=network-online.target
+
+[Service]
+Type=simple
+User=gio
+WorkingDirectory=/home/gio/Vscode-projects/Ergane
+Environment="PATH=/home/gio/.local/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/usr/bin/python3 /home/gio/Vscode-projects/Ergane/main.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/gio/Vscode-projects/Ergane/ergane.log
+StandardError=append:/home/gio/Vscode-projects/Ergane/ergane.log
+
+[Install]
+WantedBy=multi-user.target
